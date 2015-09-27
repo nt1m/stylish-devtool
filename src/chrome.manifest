@@ -1,0 +1,4 @@
+content stylish-devtool       chrome/
+skin    stylish-devtool       classic/1.0 skin/
+
+locale  stylish-devtool en-US locale/en-US/
