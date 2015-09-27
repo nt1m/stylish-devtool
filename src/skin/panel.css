@@ -115,6 +115,10 @@ iframe {
   position: relative;
   z-index: 1;
 }
+.devtools-icon {
+  vertical-align: top;
+  overflow: hidden;
+}
 /* Icon list */
 .devtools-icon.file::after {
   background-image: url("images/file.svg");
