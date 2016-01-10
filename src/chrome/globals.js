@@ -1,5 +1,5 @@
 const basePath = "chrome://stylish-devtool";
-const {utils: Cu, interfaces: Ci, classes: Cc} = Components;
+let {utils: Cu, interfaces: Ci, classes: Cc} = Components;
 let require, ViewHelpers;
 try {
   ({require} =
