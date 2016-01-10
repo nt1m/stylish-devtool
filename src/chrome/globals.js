@@ -3,9 +3,9 @@ const {utils: Cu, interfaces: Ci, classes: Cc} = Components;
 let require, ViewHelpers;
 try {
   ({require} =
-    Cu.import("resource://gre/modules/devtools/shared/Loader.jsm", {}));
+    Cu.import("resource://devtools/shared/Loader.jsm", {}));
   ({ViewHelpers} =
- require("resource:///modules/devtools/client/shared/widgets/ViewHelpers.jsm"));
+ require("resource://devtools/client/shared/widgets/ViewHelpers.jsm"));
 } catch(e) {
   ({require} =
     Cu.import("resource://gre/modules/devtools/Loader.jsm", {}).devtools);

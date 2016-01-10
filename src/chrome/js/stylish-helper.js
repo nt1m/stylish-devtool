@@ -1,7 +1,7 @@
 let {utils: Cu, interfaces: Ci, classes: Cc} = Components;
 let require;
 try {
-  ({require} = Cu.import("resource://gre/modules/devtools/shared/Loader.jsm", {}));
+  ({require} = Cu.import("resource://devtools/shared/Loader.jsm", {}));
 } catch(e) {
   ({require} =
     Cu.import("resource://gre/modules/devtools/Loader.jsm", {}).devtools);
