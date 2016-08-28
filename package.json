@@ -1,6 +1,6 @@
 {
   "name": "stylish-devtool",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "An add-on to manage your stylish userstyles from the developer tools.",
   "main": "Gruntfile.js",
   "scripts": {

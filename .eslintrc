@@ -319,8 +319,6 @@
     // Don't require to sort variables within the same declaration block.
     // Anyway, one-var is disabled.
     "sort-vars": 0,
-    // Deprecated, will be removed in 1.0.
-    "space-after-function-name": 0,
     // Require a space after keywords.
     "space-after-keywords": [1, "always"],
     // Deprecated, will be removed in 1.0.
